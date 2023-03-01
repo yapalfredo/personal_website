@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Alfredo Yap's&nbsp;
+            Alfredo Yap&apos;s&nbsp;
             <code className={styles.code}>Personal Website</code>
           </p>
           <p>
