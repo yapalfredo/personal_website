@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import { CgDarkMode } from "react-icons/Cg";
 import { MdOutlineLightMode } from "react-icons/md";
-import deval from "../../public/alfred-avatar.png";
+import { avatar } from "../../public/avatar.webp";
 import Image from "next/image";
 import SocialIcons from "./socials";
 import FrontEndSkills from "./frontendskill";
@@ -83,12 +83,13 @@ export default function Home() {
             <SocialIcons url="mailto:al@alfredoyap.com" icon="email" />
           </div>
           <div className="mx-auto bg-gradient-to-b from-slate-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-            <Image
-              src={deval}
-              alt="alfred-yap"
-              fill
-              style={{ objectFit: "cover" }}
-            />
+            <picture style={{ objectFit: "cover" }}>
+              <source
+                srcSet={require("../../public/avatar.webp")}
+                type="image/webp"
+              />
+              <img src="/avatar.webp" alt="alfred-avatar" />
+            </picture>
           </div>
         </section>
         <section>
