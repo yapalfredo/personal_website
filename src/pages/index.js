@@ -84,7 +84,12 @@ export default function Home() {
             <SocialIcons url="mailto:al@alfredoyap.com" icon="email" />
           </div>
           <div className="mx-auto bg-gradient-to-b from-slate-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-            <Image src={deval} fill={true} style={{ objectFit: "cover" }} />
+            <Image
+              src={deval}
+              fill={true}
+              style={{ objectFit: "cover" }}
+              alt="alfredo-yap-generated-image"
+            />
           </div>
         </section>
         <section>
