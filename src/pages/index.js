@@ -2,8 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import { CgDarkMode } from "react-icons/Cg";
 import { MdOutlineLightMode } from "react-icons/md";
-import deval from "../../public/dev-al-sm.png";
-
+import deval from "../../public/alfred-avatar.png";
 import Image from "next/image";
 import SocialIcons from "./socials";
 import FrontEndSkills from "./frontendskill";
@@ -86,9 +85,9 @@ export default function Home() {
           <div className="mx-auto bg-gradient-to-b from-slate-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <Image
               src={deval}
-              fill={true}
+              alt="alfred-yap"
+              fill
               style={{ objectFit: "cover" }}
-              alt="alfredo-yap-generated-image"
             />
           </div>
         </section>
