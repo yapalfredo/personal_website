@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
 
       <main className="bg-white px-10 dark:bg-sky-900">
-        <section className="min-h-screen">
+        <section className="min-h-max">
           <nav className="py-10 mb-12 flex justify-between ">
             <h1 className="text-2xl dark:text-white font-medium select-none">
               alfredoyap.com
@@ -94,7 +94,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl text-center font-semibold pt-20 dark:text-sky-300">
+            <h3 className="text-4xl text-center font-semibold pt-10 dark:text-sky-300">
               Skills
             </h3>
           </div>
