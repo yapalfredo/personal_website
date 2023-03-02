@@ -5,7 +5,7 @@ import { MdOutlineLightMode } from "react-icons/md";
 import deval from "../../public/dev-al-sm.png";
 
 import Image from "next/image";
-import SocialIcons from "./components/socials";
+import SocialIcons from "./socials";
 import FrontEndSkills from "./frontendskill";
 import BackEndSkills from "./backendskill";
 import OtherSkills from "./otherskill";
