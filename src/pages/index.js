@@ -1,8 +1,6 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import { CgDarkMode } from "react-icons/Cg";
-import { MdOutlineLightMode } from "react-icons/md";
-import { avatar } from "../../public/avatar.webp";
 import Image from "next/image";
 import SocialIcons from "./socials";
 import FrontEndSkills from "./frontendskill";
@@ -37,7 +35,7 @@ export default function Home() {
                     className="cursor-pointer text-2xl"
                   />
                 ) : (
-                  <MdOutlineLightMode
+                  <CgDarkMode
                     className="cursor-pointer text-2xl text-white"
                     onClick={() => setDarkMode(!darkMode)}
                   />
