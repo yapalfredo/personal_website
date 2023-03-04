@@ -15,7 +15,11 @@ export default function SocialIcons(props) {
   };
 
   return (
-    <a href={props.url} target="_blank">
+    <a
+      href={props.url}
+      target="_blank"
+      className="hover:bg-gradient-to-tr hover:from-sky-600 hover:to-gray-300 hover:text-white "
+    >
       {renderIcon(props.icon)}
     </a>
   );

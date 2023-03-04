@@ -23,10 +23,10 @@ export default function Home() {
 
       <main className="bg-white px-10 dark:bg-sky-900">
         <section className="min-h-max">
-          <nav className="py-10 mb-12 flex justify-between ">
+          <nav className="py-10 mb-12 flex justify-between items-center ">
             {!darkMode ? <CompanyLogoBlack /> : <CompanyLogoWhite />}
 
-            <ul className="flex items-center">
+            <ul className="flex items-center content-center center">
               <li>
                 {!darkMode ? (
                   <CgDarkMode
@@ -42,9 +42,9 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1U4k6HJOFMjvlH9-s61a63DWEMF79RaUr/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1wTeTrZwCaBo8_zFYXnwNd1lX6VGAInh7/view?usp=share_link"
                   target="_blank"
-                  className="dark:bg-gradient-to-tr  dark:from-slate-500 dark:to-sky-500 text-white px-4 py-2 rounded-md ml-8 bg-gradient-to-tr from-gray-600 to-gray-200"
+                  className="dark:bg-gradient-to-tr  dark:from-slate-500 dark:to-sky-500 text-white px-4 py-2 rounded-md ml-8 bg-gradient-to-tr from-gray-600 to-gray-200 "
                 >
                   Resume
                 </a>
@@ -59,14 +59,14 @@ export default function Home() {
               Software Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
-              As a software developer with a strong focus on React, React
-              Native, and Next.js, he brings a fresh perspective and enthusiasm
-              to every project. Alongside his technical skills, he has a growing
-              interest in the exciting world of Blockchain and Web3. He is
-              constantly seeking opportunities to learn and expand his knowledge
-              in this field. His commitment to quality and professionalism is
-              matched only by his humility and willingness to learn from others.
-              He is eager to continue growing and developing his skills as a
+              As a software developer with a strong focus on React and React
+              Native, he brings a fresh perspective and enthusiasm to every
+              project. Alongside his technical skills, he has a growing interest
+              in the exciting world of Blockchain and Web3. He is constantly
+              seeking opportunities to learn and expand his knowledge in this
+              field. His commitment to quality and professionalism is matched
+              only by his humility and willingness to learn from others. He is
+              eager to continue growing and developing his skills as a
               developer, and is excited to contribute to projects that make a
               real impact.
             </p>
@@ -91,7 +91,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl text-center font-semibold pt-10 dark:text-sky-300">
+            <h3 className="text-4xl text-center font-semibold pt-10 dark:text-white">
               Skills
             </h3>
           </div>
@@ -103,14 +103,16 @@ export default function Home() {
         </section>
 
         <section className="mt-20">
-          <div>
-            <p className="text-center text-lg dark:text-white">
-              <a href="mailto:al@alfredoyap.com">al@alfredoyap.com </a> |{" "}
+          <div className="flex-row text-center text-lg dark:text-white">
+            <div className="hover:scale-105 hover:drop-shadow-lg hover:text-sky-600 dark:hover:text-sky-300">
+              <a href="mailto:al@alfredoyap.com">al@alfredoyap.com </a>
+            </div>
+            <div className="hover:scale-105 hover:drop-shadow-lg hover:text-sky-600 dark:hover:text-sky-300">
               <a href="tel:+17162222609">716-222-2609</a>
-            </p>
+            </div>
           </div>
           <div className="mt-5">
-            <p className="text-center text-base dark:text-white">
+            <p className="text-center text-base text-gray-600 dark:text-gray-300">
               Copyright © Alfredo Yap {new Date().getFullYear()}.
             </p>
           </div>
@@ -119,3 +121,5 @@ export default function Home() {
     </div>
   );
 }
+
+// text-center text-lg dark:text-white
