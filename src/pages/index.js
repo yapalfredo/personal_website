@@ -7,6 +7,8 @@ import FrontEndSkills from "./frontendskill";
 import BackEndSkills from "./backendskill";
 import OtherSkills from "./otherskill";
 import { useState } from "react";
+import logowhite from "../../public/logowhite.png";
+import logoblack from "../../public/logoblack.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,9 +26,20 @@ export default function Home() {
       <main className="bg-white px-10 dark:bg-sky-900">
         <section className="min-h-max">
           <nav className="py-10 mb-12 flex justify-between ">
-            <h1 className="text-2xl dark:text-white font-medium select-none">
-              alfredoyap.com
-            </h1>
+            {!darkMode ? (
+              <Image
+                alt="alfredoyap.com"
+                src={logoblack}
+                className="w-auto h-auto"
+              />
+            ) : (
+              <Image
+                alt="alfredoyap.com"
+                src={logowhite}
+                className="w-auto h-auto"
+              />
+            )}
+
             <ul className="flex items-center">
               <li>
                 {!darkMode ? (
