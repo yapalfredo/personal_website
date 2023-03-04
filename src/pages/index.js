@@ -1,15 +1,13 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import { CgDarkMode } from "react-icons/Cg";
-import Image from "next/image";
 import SocialIcons from "./socials";
 import FrontEndSkills from "./frontendskill";
 import BackEndSkills from "./backendskill";
 import OtherSkills from "./otherskill";
 import { useState } from "react";
-import logowhite from "../../public/logowhite.png";
-import logoblack from "../../public/logoblack.png";
-
+import CompanyLogoBlack from "./logoblack";
+import CompanyLogoWhite from "./logowhite";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -26,19 +24,7 @@ export default function Home() {
       <main className="bg-white px-10 dark:bg-sky-900">
         <section className="min-h-max">
           <nav className="py-10 mb-12 flex justify-between ">
-            {!darkMode ? (
-              <Image
-                alt="alfredoyap.com"
-                src={logoblack}
-                className="w-auto h-auto"
-              />
-            ) : (
-              <Image
-                alt="alfredoyap.com"
-                src={logowhite}
-                className="w-auto h-auto"
-              />
-            )}
+            {!darkMode ? <CompanyLogoBlack /> : <CompanyLogoWhite />}
 
             <ul className="flex items-center">
               <li>
