@@ -42,7 +42,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1wTeTrZwCaBo8_zFYXnwNd1lX6VGAInh7/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1A2DhCLwvvkdYCs2NAFTHaYySkZUpGxt2/view?usp=share_link"
                   target="_blank"
                   className="dark:bg-gradient-to-tr  dark:from-slate-500 dark:to-sky-500 text-white px-4 py-2 rounded-md ml-8 bg-gradient-to-tr from-gray-600 to-gray-200 "
                 >
