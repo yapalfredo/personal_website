@@ -1,19 +1,19 @@
-import Head from "next/head";
-import { Inter } from "next/font/google";
-import { CgDarkMode } from "react-icons/Cg";
-import SocialIcons from "./socials";
-import FrontEndSkills from "./frontendskill";
-import BackEndSkills from "./backendskill";
-import OtherSkills from "./otherskill";
-import { useState } from "react";
-import CompanyLogoBlack from "./logoblack";
-import CompanyLogoWhite from "./logowhite";
-const inter = Inter({ subsets: ["latin"] });
+import Head from 'next/head';
+import { Inter } from 'next/font/google';
+import { CgDarkMode } from 'react-icons/Cg';
+import SocialIcons from './socials';
+import FrontEndSkills from './frontendskill';
+import BackEndSkills from './backendskill';
+import OtherSkills from './otherskill';
+import { useState } from 'react';
+import CompanyLogoBlack from './logoblack';
+import CompanyLogoWhite from './logowhite';
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className={darkMode ? 'dark' : ''}>
       <Head>
         <title>Alfredo Yap | alfredoyap.com | Portfolio</title>
         <meta name="description" content="alfredo yap | personal website |" />
@@ -42,7 +42,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1A2DhCLwvvkdYCs2NAFTHaYySkZUpGxt2/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1XW9jao6YjoznyrRQEJImPbmZD3M5nK4v/view?usp=share_link"
                   target="_blank"
                   className="dark:bg-gradient-to-tr  dark:from-slate-500 dark:to-sky-500 text-white px-4 py-2 rounded-md ml-8 bg-gradient-to-tr from-gray-600 to-gray-200 "
                 >
@@ -80,9 +80,9 @@ export default function Home() {
             <SocialIcons url="mailto:al@alfredoyap.com" icon="email" />
           </div>
           <div className="mx-auto bg-gradient-to-b from-slate-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-            <picture style={{ objectFit: "cover" }}>
+            <picture style={{ objectFit: 'cover' }}>
               <source
-                srcSet={require("../../public/avatar.webp")}
+                srcSet={require('../../public/avatar.webp')}
                 type="image/webp"
               />
               <img src="/avatar.webp" alt="alfred-avatar" />
