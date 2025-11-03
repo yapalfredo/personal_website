@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   // Ensure proper handling of src directory
-  pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
+  pageExtensions: ['js', 'jsx'],
 };
 
 module.exports = nextConfig;
