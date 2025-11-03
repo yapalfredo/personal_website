@@ -1,12 +1,3 @@
-import reactlogo from "../../public/react.svg";
-
-import tailwindlogo from "../../public/tailwind.svg";
-import html5logo from "../../public/html5.svg";
-import materialuilogo from "../../public/materialui.svg";
-import wordpresslogo from "../../public/wordpress.svg";
-import nextjslogo from "../../public/nextjsicon.svg";
-import javascriptlogo from "../../public/javascript.svg";
-import css3logo from "../../public/css3.svg";
 import Image from "next/image";
 
 export default function FrontEndSkills() {
@@ -20,35 +11,35 @@ export default function FrontEndSkills() {
         </h3>
         <div className="flex flex-wrap justify-center items-center gap-2.5 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 flex-1">
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-blue-400/80 dark:hover:shadow-blue-400/50 backdrop-blur-md border border-blue-100/50 dark:border-blue-500/30 hover:border-blue-200 dark:hover:border-blue-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={html5logo} alt="html5" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/html5.svg" alt="html5" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">HTML5</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-blue-400/80 dark:hover:shadow-blue-400/50 backdrop-blur-md border border-blue-100/50 dark:border-blue-500/30 hover:border-blue-200 dark:hover:border-blue-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={javascriptlogo} alt="javascript" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/javascript.svg" alt="javascript" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">JavaScript</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-blue-400/80 dark:hover:shadow-blue-400/50 backdrop-blur-md border border-blue-100/50 dark:border-blue-500/30 hover:border-blue-200 dark:hover:border-blue-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={css3logo} alt="css3" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/css3.svg" alt="css3" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">CSS3</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-blue-400/80 dark:hover:shadow-blue-400/50 backdrop-blur-md border border-blue-100/50 dark:border-blue-500/30 hover:border-blue-200 dark:hover:border-blue-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={reactlogo} alt="react" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/react.svg" alt="react" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">React</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-blue-400/80 dark:hover:shadow-blue-400/50 backdrop-blur-md border border-blue-100/50 dark:border-blue-500/30 hover:border-blue-200 dark:hover:border-blue-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={nextjslogo} alt="next-js" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/nextjsicon.svg" alt="next-js" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Next.js</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-blue-400/80 dark:hover:shadow-blue-400/50 backdrop-blur-md border border-blue-100/50 dark:border-blue-500/30 hover:border-blue-200 dark:hover:border-blue-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={tailwindlogo} alt="tailwindcss" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/tailwind.svg" alt="tailwindcss" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Tailwind CSS</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-blue-400/80 dark:hover:shadow-blue-400/50 backdrop-blur-md border border-blue-100/50 dark:border-blue-500/30 hover:border-blue-200 dark:hover:border-blue-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={materialuilogo} alt="material-ui" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/materialui.svg" alt="material-ui" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Material UI</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-blue-400/80 dark:hover:shadow-blue-400/50 backdrop-blur-md border border-blue-100/50 dark:border-blue-500/30 hover:border-blue-200 dark:hover:border-blue-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={wordpresslogo} alt="wordpress" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/wordpress.svg" alt="wordpress" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">WordPress</span>
         </div>
         </div>

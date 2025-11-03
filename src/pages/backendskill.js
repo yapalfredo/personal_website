@@ -1,15 +1,3 @@
-import cpluspluslogo from "../../public/cplusplus.svg";
-import csharplogo from "../../public/csharp.svg";
-import dotnetlogo from "../../public/dotnet.svg";
-import pythonlogo from "../../public/python.svg";
-import javalogo from "../../public/java.svg";
-import nodejslogo from "../../public/nodejs.svg";
-import expresslogo from "../../public/express.svg";
-import mongodblogo from "../../public/mongodb.svg";
-import firebaselogo from "../../public/firebase.svg";
-import mysqllogo from "../../public/mysql.svg";
-import apilogo from "../../public/api.svg";
-import soliditylogo from "../../public/Solidity.svg";
 import Image from "next/image";
 
 export default function BackEndSkills() {
@@ -24,7 +12,7 @@ export default function BackEndSkills() {
         <div className="flex flex-wrap justify-center items-center gap-2.5 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 flex-1">
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
           <Image
-            src={mongodblogo}
+            src="/mongodb.svg"
             alt="mongo-db"
             width={50}
             height={50}
@@ -33,47 +21,47 @@ export default function BackEndSkills() {
           <span className="tooltip">MongoDB</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={expresslogo} alt="express" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/express.svg" alt="express" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Express.js</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={nodejslogo} alt="node-js" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/nodejs.svg" alt="node-js" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Node.js</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={firebaselogo} alt="firebase" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/firebase.svg" alt="firebase" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Firebase</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={mysqllogo} alt="mysql" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/mysql.svg" alt="mysql" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">MySQL</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={cpluspluslogo} alt="c-plus-plus" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/cplusplus.svg" alt="c-plus-plus" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">C++</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={csharplogo} alt="c-sharp" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/csharp.svg" alt="c-sharp" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">C#</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={dotnetlogo} alt="dotnet" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/dotnet.svg" alt="dotnet" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">.NET</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={javalogo} alt="java" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/java.svg" alt="java" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Java</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={pythonlogo} alt="python" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/python.svg" alt="python" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Python</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={apilogo} alt="API" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/api.svg" alt="API" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">API Development</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-emerald-400/80 dark:hover:shadow-emerald-400/50 backdrop-blur-md border border-emerald-100/50 dark:border-emerald-500/30 hover:border-emerald-200 dark:hover:border-emerald-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={soliditylogo} alt="Solidity" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/Solidity.svg" alt="Solidity" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Solidity</span>
         </div>
         </div>

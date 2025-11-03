@@ -1,18 +1,3 @@
-import gitlogo from "../../public/giticon.svg";
-import githublogo from "../../public/github.svg";
-import googlecloudlogo from "../../public/google-cloud.svg";
-import awslogo from "../../public/aws.svg";
-import azurelogo from "../../public/azure-icon.svg";
-import netlifylogo from "../../public/netlify.svg";
-import ibmcloudlogo from "../../public/ibm-cloud.svg";
-import vercellogo from "../../public/vercel.svg";
-import ubiquitilogo from "../../public/ubiquiti.svg";
-import omadalogo from "../../public/omada.svg";
-import akuvoxlogo from "../../public/akuvox.svg";
-import customersupportlogo from "../../public/customer-support.svg";
-import ailogo from "../../public/ai.svg";
-import dockerlogo from "../../public/Docker.svg";
-import kuberneteslogo from "../../public/Kubernetes.svg";
 import Image from "next/image";
 
 export default function OtherSkills() {
@@ -26,20 +11,20 @@ export default function OtherSkills() {
         </h3>
         <div className="flex flex-wrap justify-center items-center gap-2.5 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 flex-1">
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={gitlogo} alt="git" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/giticon.svg" alt="git" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Git</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={githublogo} alt="git-hub" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/github.svg" alt="git-hub" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">GitHub</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={netlifylogo} alt="netlify" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/netlify.svg" alt="netlify" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Netlify</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
           <Image
-            src={googlecloudlogo}
+            src="/google-cloud.svg"
             alt="google-cloud"
             width={50}
             height={50}
@@ -48,47 +33,47 @@ export default function OtherSkills() {
           <span className="tooltip">Google Cloud</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={awslogo} alt="aws" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/aws.svg" alt="aws" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">AWS</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={azurelogo} alt="azure" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/azure-icon.svg" alt="azure" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Azure</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={ibmcloudlogo} alt="ibm-cloud" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/ibm-cloud.svg" alt="ibm-cloud" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">IBM Cloud</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={ailogo} alt="AI" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/AI.svg" alt="AI" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">AI</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={vercellogo} alt="Vercel" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/vercel.svg" alt="Vercel" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Vercel</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={dockerlogo} alt="Docker" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/Docker.svg" alt="Docker" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Docker</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={kuberneteslogo} alt="Kubernetes" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/Kubernetes.svg" alt="Kubernetes" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Kubernetes</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={ubiquitilogo} alt="Ubiquiti UniFi" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/ubiquiti.svg" alt="Ubiquiti UniFi" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Ubiquiti UniFi</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={omadalogo} alt="Omada" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/omada.svg" alt="Omada" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Omada</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={akuvoxlogo} alt="Akuvox" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/akuvox.svg" alt="Akuvox" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Akuvox</span>
         </div>
         <div className="tooltip-container flex items-center justify-center w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px] lg:w-[65px] lg:h-[65px] xl:w-[70px] xl:h-[70px] transition-all duration-300 hover:scale-125 hover:z-20 cursor-pointer group relative bg-white/80 dark:bg-slate-600/95 dark:border dark:border-slate-500/60 rounded-xl sm:rounded-2xl p-2 sm:p-2.5 shadow-lg hover:shadow-2xl hover:bg-white dark:hover:bg-slate-500/95 dark:hover:border-purple-400/80 dark:hover:shadow-purple-400/50 backdrop-blur-md border border-purple-100/50 dark:border-purple-500/30 hover:border-purple-200 dark:hover:border-purple-400/70 dark:bg-gradient-to-br dark:from-slate-600/95 dark:to-slate-700/95">
-          <Image src={customersupportlogo} alt="Customer Support" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
+          <Image src="/customer-support.svg" alt="Customer Support" width={50} height={50} className="w-full h-full object-contain group-hover:drop-shadow-2xl transition-all duration-300" />
           <span className="tooltip">Customer Support</span>
         </div>
         </div>
